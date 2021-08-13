@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Ceramic Network Ethereum 3ID Decentralized Identity
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Decentralized Identity
+* The Transition from closed Platforms with App-specific Identities and siloed Information to open Ecosystems with User-owned Identities and portable Data
 
-## Available Scripts
+### Ceramic
+* A dezentral Network of Nodes which can be write and read
+* Ceramic is a decentralized, open source Platform for Creating, Hosting, and Sharing Streams of Data
+* With Ceramic's Permissionless Data Streaming Network, Streams of Information and ever-changing Files directly can be stored on the decentralized Web, and share Updates with anyone in the World
 
-In the project directory, you can run:
+### iDX
+* Identity Protocol that interact with ceramic
+* Shared Identity System in a dezentral Network to read and write Information about Users
+* iDX is an Open Source decentralized Identity Protocol that replaces App-specific User Tables with a single User-centric Index that is shared by all Applications
+* The Index provides a unified Place where all Applications can register and discover Data Sources associated to a User
+* The Index allows an Application to store Data in any Storage Backend, while still providing Users with the Aggregation, Metadata, Schemas, and Routing required to make this Data consumable by any other Application
 
-### `npm start`
+### DID Methods
+* DID Methods are Implementations of the DID Specification
+* DID Methods must specify a Name for the Method, a Description of where the DID Document is stored, and a DID Resolver which can return a DID Document given a URI that conforms to that particular DID Method
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 3ID
+* The 3ID DID Method is a DID Method which can be used to Authenticate to Ceramic and perform Writes to Streams that rely on DIDs
+* 3ID Connect is a DID provider for the 3ID DID Method
+* It allows Users to use a 3ID DID with their existing Blockchain Wallets
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### DIDs
+* Decentralized Identifiers (DIDs) are a Type of Identifier that enables verifiable, decentralized digital Identity
+* A globally unique persistent Identifier that does not require a centralized Registration Authority and is often generated and/or registered cryptographically
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Ceramic Network
 
-### `npm run build`
+### Supported blockchains
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![supported blockchains](https://user-images.githubusercontent.com/29623199/129327623-e5ec17fb-1835-4d98-bc3e-bf55a751b680.JPG)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### basicProfile Schema
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![basicprofile schema](https://user-images.githubusercontent.com/29623199/129327417-8f1bb1a2-3b42-4e33-b2e1-55154cba8e76.JPG)
